@@ -1,1 +1,143 @@
-hello
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>HTML hoja de referencias</title>
+	</head>
+	<body>
+		<a href="entrada.html">ir a psico</a>
+		<hr>
+		<!-- Títulos, hay hasta seis tags -->
+		<h1>titulos uno</h1>
+		<h2>titulo dos</h2>
+		<h3>titulo tres</h3>
+		<h4>titulo cuatro</h4>
+		<h5>titulo cinco</h5>
+		<h6>titulo seis</h6>	
+		<!-- Parrafo 
+			-lorem + tab genera texto dummy 
+			-tambien hay espaciado automatico por default entre parrafos-->
+		<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+		tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+		quis nostrud <strong> exercitation</strong> ullamco laboris nisi ut aliquip ex ea commodo
+		consequat. <em>Duis aute irure dolor</em> in reprehenderit in voluptate velit esse
+		cillum dolore eu fugiat nulla pariatur. Excepteadur sint occaecat cupidatat non
+		proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+		</p>
+		<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+		tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+		quis<a href="http://reddit.com" target="_blank"> nostrud exercitation</a> ullamco laboris nisi ut aliquip ex ea commodo
+		consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+		cillum dolore eu fugiat nulla pariatur. Excepteadur sint occaecat cupidatat non
+		proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+		</p>
+		<!-- listas -->
+		<ul>
+			<li>Menu 1</li>
+			<li>Menu clasico</li>
+			<li>Menu gourmet</li>
+			<li>Menu premium</li>
+		</ul>
+
+		<ol>
+			<li>Menu 1</li>
+			<li>Menu clasico</li>
+			<li>Menu gourmet</li>
+			<li>Menu premium</li>
+		</ol>
+		<!-- table -->
+		<table>
+			<thead>
+				<tr>
+					<th>Nombre</th>
+					<th>Apellido</th>
+					<th>Mail</th>
+					<th>Numero</th>
+					<th>M.P</th>
+				</tr>	
+			</thead>
+			<tbody>
+				<tr>
+					<td>Juan Pablo</td>
+					<td>Solveyra</td>
+					<td>jpsolveyra@gmail.com</td>
+					<td>1127110095</td>
+					<td>98107</td>
+				</tr>
+				<tr>
+					<td>Maria Laura</td>
+					<td>Rios</td>
+					<td>chimi@gmail.com</td>
+					<td>nn</td>
+					<td>98108</td>
+				</tr>
+			</tbody>
+		</table>
+		<br>
+		<hr>
+		<br>
+		<!-- Forms -->
+		<form action="proceso.php" method="POST">
+			<div>
+				<label>Primer Nombre</label>
+				<input type="text" name="primer-nombre" placeholder=" Ingrese su primer nombre">
+			</div>
+			<br>
+			<div>
+				<label>Apellido</label>
+				<input type="text" name="apellido">
+			</div>
+			<br>
+			<div>
+				<label>Email</label>
+				<input type="email" name="email">
+			</div>
+			<br>
+			<div>
+				<label>Mensaje</label>
+				<textarea nombre="mensaje"></textarea>
+			</div>
+			<br>
+			<div>
+				<label>Genero</label>
+				<select name="genero">
+					<option value="masculino">Masculino</option>
+					<option value="femenino">Femenino</option>
+					<option value="otro">Otro</option>
+				</select>
+			</div>
+			<br>
+			<div>
+				<label>Edad</label>
+				<input type="number" name="edad" value="25">
+			</div>
+			<br>
+			<div>
+				<label>Fecha de Nacimiento</label>
+				<input type="date" name="fechaDeNacimiento">
+			</div>
+			<br>
+			<input type="submit" name="enviar" value="enviar">
+			
+		</form>
+		<br>
+		<!-- Botones -->
+		<button>Cliqueame</button>
+		<!--imagenes, tmb hay height-->
+		<br>
+		<br>
+		<a href="images/FOTO CATERING 6 CON LOGO.png"><img src="images/FOTO CATERING 6 CON LOGO.png" alt="foto de pizza" width="400">
+		</a>
+
+		<!-- citas -->
+		<br>
+		<blockquote cite="http://youtube.com">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+		tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+		quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+		consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+		cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+		proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</blockquote>
+		<p><abbr title="Youtube">YT</abbr> es genial!</p>
+		<br>
+		<p>Curso de HTML por <cite>Traversy Media</cite></p>
+	</body>
+</html>
